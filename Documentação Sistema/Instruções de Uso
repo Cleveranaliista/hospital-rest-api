@@ -1,0 +1,19 @@
+						Autor: Clever Junio Ribeiro Alves
+
+Breve descricao:
+Essa Api faz chamadas via REST para validação,
+consulta e inclusão de Pacientes.
+	
+Utilização: Via URL passa se o nome do método juntamente com parâmetro.
+
+exemplo 1: http://localhost:8080/pacientes/1
+http://localhost:8080/pacientes/2
+obs: esse metódo faz consulta diretamente ao banco de dados.
+
+exemplo 2:
+http://localhost:8080/pessoas/
+http://localhost:8080/pessoa/1/
+obs: esse metódo faz consulta diretamente na clase.
+
+Foram criados os dois modelos
+com a intenção de aprendizado.

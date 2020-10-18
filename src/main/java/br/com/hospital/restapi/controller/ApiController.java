@@ -16,6 +16,7 @@ public class ApiController {
 	@Autowired
 	private static PessoaServices pessoaService;
 	
+	@SuppressWarnings("static-access")
 	@GetMapping("/pessoas/")
 	public List<Pessoa> pessoas(){
 		return pessoaService.listaDePessoas();
@@ -23,7 +24,7 @@ public class ApiController {
 
 	@GetMapping("/pessoa/{id}/")
 	public Pessoa pessoaId(@PathVariable Integer id){
-		return pessoaService.getPessoaPorId(id);
+		return PessoaServices.getPessoaPorId(id);
 	}
 	
 }

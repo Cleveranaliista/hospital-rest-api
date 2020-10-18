@@ -1,0 +1,11 @@
+						Autor: Clever Junio Ribeiro Alves
+
+Aplicação disponível no GitHub
+https://github.com/Cleveranaliista/hospital-rest-api.git
+
+O banco de dados:  mysql:
+Caminho: localhost:3306
+usuario: root
+senha: 0926
+Base de dados: hospital
+

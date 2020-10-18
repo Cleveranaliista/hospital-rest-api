@@ -25,7 +25,7 @@ public class AtendimentoServices {
 		entidade.setCodAtendimento(Atendimento.getCodAtendimento());
 		entidade.setCodPaciente(Atendimento.getCodPaciente());
 		entidade.setCodPlanoSaude(Atendimento.getCodPlanoSaude());
-		//entidade.setDatAtendimento(Atendimento.getDatAtendimento());
+		entidade.getDatAtendimento(Atendimento.getDatAtendimento());
 		
 		AtendimentoEntity created = this.repository.save(entidade);
 		
